@@ -48,7 +48,7 @@ All 5 tools visible in the mcp-use Inspector:
 
 **VesselFinder `/api/pub/mp2`** — live AIS vessel positions (MMSI, name, lat/lon, heading, type). Undocumented binary endpoint used by VesselFinder's own front‑end, reverse‑engineered in `lib/vesselfinder-client.ts`. 30‑second cache. **ToS‑gray**: may be rate‑limited, IP‑blocked, or break without notice. For production deployment, swap to a commercial AIS API (Datalastic, Spire, VesselFinder paid tier). The rest of the dashboard keeps working if AIS fails — `fetchLiveShips` has a `catch` fallback that returns an empty vessel list.
 
-> AISStream.io was tried first and confirmed unusable for the Gulf — terrestrial AIS receivers don't cover the region, so it delivers zero messages from Hormuz. PortWatch + VesselFinder was the only free combination that actually works here.
+> Terrestrial AIS receivers have effectively zero coverage of the Persian Gulf, so free public AIS streams deliver no messages from Hormuz. The satellite-assisted VesselFinder feed was the only free source that actually returned vessels here.
 
 ### Payload shaping
 

@@ -26,6 +26,7 @@ const server = new MCPServer({
   description:
     "Tactical maritime situation dashboard for the Strait of Hormuz. IMF disruption polygons, daily chokepoint transit counts, Gulf port activity, and LIVE AIS vessel positions. Ask 'is Hormuz open?', 'what ships are near Fujairah?', 'how does Hormuz compare to Suez/Panama?'.",
   baseUrl: process.env.MCP_URL || "http://localhost:3000",
+  host: "0.0.0.0",
   favicon: "favicon.ico",
   websiteUrl: "https://mcp-use.com",
   icons: [

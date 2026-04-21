@@ -13,6 +13,9 @@ export const widgetMetadata: WidgetMetadata = {
     prefersBorder: false,
     invoking: "Scanning AIS feed around port...",
     invoked: "Port feed online",
+    csp: {
+      resourceDomains: ["https://*.basemaps.cartocdn.com"],
+    },
   },
 };
 

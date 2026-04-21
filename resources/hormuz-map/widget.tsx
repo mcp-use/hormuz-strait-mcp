@@ -13,6 +13,9 @@ export const widgetMetadata: WidgetMetadata = {
     prefersBorder: false,
     invoking: "Acquiring Hormuz tactical feed...",
     invoked: "Hormuz feed online",
+    csp: {
+      resourceDomains: ["https://*.basemaps.cartocdn.com"],
+    },
   },
 };
 

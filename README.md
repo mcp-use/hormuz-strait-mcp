@@ -1,14 +1,13 @@
 # Hormuz Watch — MCP Server
 
-Tactical maritime situation dashboard for the **Strait of Hormuz**, delivered as an MCP server with two interactive Leaflet map widgets and three JSON tools. Fuses IMF PortWatch chokepoint/port statistics with **live AIS vessel positions** from VesselFinder into a single picture you can ask for in natural language inside Claude, ChatGPT, or any MCP‑Apps-compatible client.
+> Tactical maritime situation dashboard for the **Strait of Hormuz** — two interactive Leaflet map widgets + three JSON tools, delivered as a single MCP endpoint. Fuses IMF PortWatch chokepoint statistics with **live AIS vessel positions** into one picture you can query in natural language from Claude, ChatGPT, or any MCP‑Apps client.
 
-- **How to use it:** https://hormuz.run.mcp-use.com/mcp
-- **Try it now:** [open in the Inspector chat](https://inspector.manufact.com/inspector?server=https%3A%2F%2Fhormuz.run.mcp-use.com%2Fmcp&tab=chat)
-- Built with mcp-use SDK: https://github.com/mcp-use/mcp-use
-- Tested with mcp-use inspector: https://inspector.mcp-use.com
-- Deployed on Manufact for free: https://manufact.com/
+[![Try it now](https://img.shields.io/badge/Try_it_now-Inspector_chat-22d3ee?style=for-the-badge)](https://inspector.manufact.com/inspector?server=https%3A%2F%2Fhormuz.run.mcp-use.com%2Fmcp&tab=chat)
+[![MCP endpoint](https://img.shields.io/badge/MCP_endpoint-hormuz.run.mcp--use.com-0a0e17?style=for-the-badge)](https://hormuz.run.mcp-use.com/mcp)
+[![Built with mcp-use](https://img.shields.io/badge/Built_with-mcp--use_SDK-f59e0b?style=for-the-badge)](https://github.com/mcp-use/mcp-use)
+[![Deployed on Manufact](https://img.shields.io/badge/Deployed_on-Manufact-a855f7?style=for-the-badge)](https://manufact.com/)
 
-> "Is Hormuz open right now?" · "What ships are at Fujairah?" · "Where does Hormuz rank against Suez and Malacca today?"
+**Ask it:** *"Is Hormuz open right now?"* · *"What ships are at Fujairah?"* · *"Where does Hormuz rank against Suez and Malacca today?"*
 
 ## The two widgets
 

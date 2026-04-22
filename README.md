@@ -2,6 +2,10 @@
 
 Tactical maritime situation dashboard for the **Strait of Hormuz**, delivered as an MCP server with two interactive Leaflet map widgets and three JSON tools. Fuses IMF PortWatch chokepoint/port statistics with **live AIS vessel positions** from VesselFinder into a single picture you can ask for in natural language inside Claude, ChatGPT, or any MCP‑Apps-compatible client.
 
+- Built with mcp-use SDK: https://github.com/mcp-use/mcp-use
+- Tested with mcp-use inspector: https://inspector.mcp-use.com
+- Deployed on Manufact for free: https://manufact.com/
+
 > "Is Hormuz open right now?" · "What ships are at Fujairah?" · "Where does Hormuz rank against Suez and Malacca today?"
 
 ## The two widgets
